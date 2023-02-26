@@ -1,0 +1,41 @@
+
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  .b1{
+    background-color: #4b9184; 
+    border-color: white;
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  .send {
+    background-color: white; 
+    border-color: #4b9184;
+    
+    color: #4b9184;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+.upload-icon{
+    left: 50%;
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+}

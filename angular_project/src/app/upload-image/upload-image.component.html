@@ -1,0 +1,34 @@
+<html>
+<head>
+    <link rel="style sheet" herf="upload-image.component.css">
+</head>
+    <body>
+    
+        <div class="container" id="imgBox" style="text-align:center">
+            <div [innerHtml]="msg" *ngIf="msg" style="color: red;"></div>
+            <p>
+                <input type="file" id="file" name="img1" style="display: none" (change)="selectFile($event)" />
+                <label for="file"><img src="assets/upload.png" width="150" height="100" name="chosenImg" class="upload-icon"></label>
+            </p>
+            <button  name="b1" (click)="getData()" class="send">Send Data</button><br/><br/>
+            
+        </div>
+        <div>
+            <canvas id="canvas" style="border: 1px solid"></canvas>
+            <script src="src\app\upload-image\upload-image.component.ts"></script><br/><br/>
+
+        </div><br/><br/>
+        <div style="position: relative;"> 
+            <img [src]="imageUrl" *ngIf="imageUrl" [style.transform]="'scale(' + scale + ')'" 
+                [style.position]="'absolute'" [style.top]="'300px'" [style.left]="'0'" [style.right]="'0'" [style.bottom]="'50px'" [style.margin]="'auto'"/>
+                <div style="position: absolute; bottom: 0; display: flex; justify-content: center; width: 100%;">
+                    <button (click)="zoomIn()" class="b1" >Zoom In</button>
+                    <button (click)="zoomOut()"class="b1" >Zoom Out</button>
+                    <button (click)="undo()" class="b1">Undo</button> 
+                </div>
+
+        </div>
+            
+    </body>
+</html>
+
