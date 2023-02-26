@@ -9,7 +9,7 @@ Website:
 Examples:
 Blue line - User mark
 
-Red line - fixed line
+Red line - After Correction
 
 <img src="https://user-images.githubusercontent.com/96941593/221415556-15c72d69-d52b-48e9-b63a-0a1438885f0d.jpg"  width="300" height="400" > <img src="https://user-images.githubusercontent.com/96941593/221415580-536f45b8-a575-430c-a2b8-441adbe314dd.jpg" width="300" height="400" > 
 
